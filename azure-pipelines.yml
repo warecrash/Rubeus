@@ -30,5 +30,5 @@ steps:
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: 'D:\a\1\s\Rubeus\bin\Release\'
-    ArtifactName: 'drop'
+    ArtifactName: 'Rubeus'
     publishLocation: 'Container'
