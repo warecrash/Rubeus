@@ -35,7 +35,7 @@ steps:
 
 - task: GithubRelease@1
   inputs:
-    githubConnection: 'Github'
-    repositoryName: 'rubeustest'
+    githubConnection: '$(githubPAT)'
+    repositoryName: 'warecrash/rubeustest'
     action: 'create'
     target: '$(Build.SourceVersion)'
