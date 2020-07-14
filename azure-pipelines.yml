@@ -33,5 +33,5 @@ steps:
     repositoryName: 'warecrash/rubeus'
     action: 'create'
     target: '$(Build.SourceVersion)'
-    tagSource: 'gitTag'
-    tagPattern: '*'
+    tagSource: 'userSpecifiedTag'
+    tag: 'test'
